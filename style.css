@@ -7,6 +7,8 @@
 
 /* Basic styling */
 body {
+
+
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
@@ -58,7 +60,7 @@ section.hero {
     background-size: cover;
     background-position: center;
     color: #5335a0;
-    margin-top: 54px;
+    margin-top: 0px;
 }
 
 .hero h1 {
@@ -83,6 +85,7 @@ section.hero {
 }
 
 .featured_courses {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-image: linear-gradient(to right, rgba(116, 41, 173, 0), rgb(128 89 232));
     margin-top: 61px;
 }
@@ -109,12 +112,13 @@ section.courses {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
-.course p{
+
+.course p {
     margin-bottom: 11px;
 }
 
 
-.course a{
+.course a {
     text-decoration: none;
 }
 
@@ -125,7 +129,70 @@ section.courses {
     border-radius: 56%;
 }
 
+.feed {
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 29px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(116, 41, 173, 0), rgb(128 89 232));
+}
 
+section.feedbacks {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feedback {
+    flex: 1;
+    background-color: #8059e8;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 17px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.feedback img {
+    max-width: 100%;
+    height: 103px;
+    margin-bottom: 20px;
+    border-radius: 56%;
+}
+
+
+.MENTOR {
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 29px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(116, 41, 173, 0), rgb(128 89 232));
+}
+
+section.mentors {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mentor img {
+    max-width: 100%;
+    height: 103px;
+    margin-bottom: 20px;
+    border-radius: 56%;
+}
+
+.mentor {
+    flex: 1;
+    background-color: #8059e8;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 17px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
 
 footer {
     background-color: #333;
